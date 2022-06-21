@@ -1,21 +1,22 @@
 body{
-    background-color:rgb(240, 209, 209);
-    border: 7px solid white;
+    background-color:white;
+
 }
 header{
     background-color: rgb(114, 8, 8);
-    text-align: right;
+    text-align: left;
 }
 .mainImage{
     border-radius: 50%;
     right: 500px;
     text-align: right;
     border: 7px solid white;
+    margin-left: 3%;
 }
 h1{
     color:white;
     font-size:30px;
-    text-align: right;
+    margin-left: 5%;  
 }
 h2{
     color:black;
@@ -31,4 +32,17 @@ li{
 }
 .dates {
     font-size: 10px;
+}
+aside{
+    width: 35%;
+    float: right;
+    background-color: rgb(114, 8, 8);
+    color: white;
+}
+.inAside{
+    color:white;
+}
+.contact{
+    font-size: 12px;
+    margin-left: 5%;
 }
